@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Example</title>
+	<style><!--
+	#content {
+		width: 980px;
+		padding: 12px;
+		border: #dddddd solid 3px;
+		background-color: #f4f4f4;
+		margin: 12px;
+		display: inline-block;
+	}
+
+	#content > .section {
+		float: left;
+		text-align: center;
+		padding: 12px;
+		border: #bbbbbb solid 3px;
+		background-color: #eeeeee;
+		margin: 12px;
+	}
+
+	.section .section {
+		margin: 8px;
+	}
+
+
+	--></style>
+</head>
+<body>
+<h1>縦に並べてレイアウトする</h1>
+<div id="content">
+	<h2>Content</h2>
+	<div class="section">
+		<h3>Left</h3>
+
+		<div class="section">
+			<img src='holder.js/480x360/sky'>
+		</div>
+
+		<div class="section">
+			<img src='holder.js/480x360/lava'>
+		</div>
+
+		<div class="section">
+			<img src='holder.js/480x360/industrial'>
+		</div>
+
+	</div>
+	<div class="section">
+		<h3>Right</h3>
+		<div class="section">
+			<img src='holder.js/360x480/vine'>
+		</div>
+
+		<div class="section">
+			<img src='holder.js/360x640/social'>
+		</div>
+	</div>
+</div>
+<script src="holder.js"></script>
+</body>
+</html>
